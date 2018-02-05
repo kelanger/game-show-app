@@ -78,7 +78,9 @@ button {
 /* Scoreboard */
 
 .tries {
-  background-image: url('/liveHeart.png');
+  background-image: url('../images/lostHeart.png');
+  background-repeat: no-repeat;
+  background-size: 35px 35px;
 }
 
 /* Phrase */
