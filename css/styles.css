@@ -91,9 +91,11 @@ button {
   width: 65px;
   padding: 20px 1px 0 1px;
   margin-right: 2px;
+  margin-bottom: 5px;
   color: transparent;
   background: var(--color-neutral-light);
   border-radius: 5px;
+  transition: transform 1s;
 }
 
 .space {
@@ -103,6 +105,7 @@ button {
 .show {
   color: #000;
   background-color: #76CE82;
+  transform: rotate(360deg);
 }
 
 /* Keyboard */
@@ -140,6 +143,7 @@ button {
   left: 0;
   right: 0;
   border-radius: 5px;
+  z-index: 100;
 }
 
 .title {
@@ -151,7 +155,7 @@ button {
 }
 
 .start a {
-  color: var(--color-win);
+  color: var(--color-start);
 }
 
 .win {
